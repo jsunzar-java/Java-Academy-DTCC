@@ -10,11 +10,14 @@ public class BooleansCompoundsExamples {
         // Assignment with operators and or methods
         boolean myBoolean_3 = 3 > 2;
         boolean myBoolean = "yellow".equals("blue");
+        boolean myBoolean4 = 10 < 3;
+        System.out.println(myBoolean4);
 
         // Assignment with operators
         int x_1 = 3 + 1;
         int x_2 = 9 - 1;
         // Assignment with previously used variables and operators
         double d_1 = x_1 + x_2 * 2.5;
+        System.out.println(d_1);
     }
 }

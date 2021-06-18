@@ -2,16 +2,15 @@ package assignment_2.conditionals;
 
 public class ConditionalStatement2 {
     public static void main (String args[]) {
-        int value = 100;
-        if(true) {
-            if(value == 100) {
+        int value = 87;
+        if(value !=100) {
                 System.out.println("You Win");
+            doSomething(true);
             }
-        } else {
+         else {
             System.out.println("You Lose");
+            doSomething(false);
         }
-
-        //doSomething()
     }
 
 
@@ -24,11 +23,11 @@ public class ConditionalStatement2 {
             System.out.println("You win, again, and again");
         }
 
-        if(b || !b) {
+        if(b || b) {
             System.out.println("I think you would probably always win here");
         }
 
-        if(b && b ) {
+        if(!b && !b ) {
             System.out.println("You will never win here!");
         }
     }

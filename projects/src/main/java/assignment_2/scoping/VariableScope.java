@@ -4,14 +4,14 @@ public class VariableScope {
     public static void main (String args[]) {
         example_1();
 
-        // Question 1, does i exist at this point?
+        // Question 1, does i exist at this point? No, i has not been declared within the code yet
         // If so can you uncomment this and the code will compile?
         // System.out.println(i);
 
         if(true) {
             int i = 0;
         }
-        // Question 2, does i exist at this point?
+        // Question 2, does i exist at this point? No, i has not been declared within the braces
         // If so can you uncomment this and the code will compile?
         // System.out.println(i);
     }
