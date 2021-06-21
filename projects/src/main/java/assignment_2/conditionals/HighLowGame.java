@@ -18,7 +18,7 @@ public class HighLowGame {
                 "given hints whether you're guessing higher or lower.");
 
         int low = 0;
-        int max = 10;
+        int max = 1000;
         int answer =  ThreadLocalRandom.current().nextInt(low, max + 1);
         while(true) {
             System.out.println(String.format("Please input an integer %s!", name));
@@ -29,8 +29,13 @@ public class HighLowGame {
                 break;
             }
 
-            // Add the conditions to tell the player whether they should guess higher or lower!
+            else if (guess < answer){
+                System.out.println(String.format("Your answer is lower, guess higher!"));
+            }
 
+            else if (guess > answer){
+                System.out.println(String.format("Your answer is higher, guess lower!"));
+            }
         }
     }
 }
