@@ -1,7 +1,5 @@
 package assignment_2.conditionals;
 
-import com.sun.javafx.image.IntPixelGetter;
-
 public class ConditionalStatement1 {
     public static void main(String args[]) {
         int i = 2;
